@@ -1,15 +1,15 @@
 # pyGCAP: a (py)thon (G)ene (C)luster (A)nnotation & (P)rofiling
 
-A Python Package for Probe-based Gene Cluster Finding in Large Microbial Genome Database
+__pyGCAP__ is a Python package for probe-based gene cluster annotation and profiling from large microbial genome databases.
 
-- [introduction](#introduction)
-- [pipeline-flow](#pipeline-flow)
-- [pre-requirement](#pre-requirement)
-- [usage](#usage)
+- [Introduction](#Introduction)
+- [Workflow - pipeline for new discovery](#Workflow)
+- [Pre-requirement for running a job](#Pre-requirement)
+- [Usage - examples](#Usage)
 
 ---
 
-### introduction
+### 1. Introduction
 
 Bacterial gene clusters provide insights into metabolism and evolution, and facilitate biotechnological applications. We developed pyGCAP, a Python package for probe-based gene cluster discovery. This pipeline uses sequence search and analysis tools and public databases (e.g. BLAST, MMSeqs2, UniProt, and NCBI) to predict potential gene clusters by user-provided probe genes. We tested the pipeline with the division and cell wall (dcw) gene cluster, crucial for cell division and peptidoglycan biosynthesis.
 
@@ -19,7 +19,7 @@ To evaluate pyGCAP, we used 17 major dcw genes defined by Megrian et al. [1] as 
 
 ---
 
-### pipeline-flow
+### Workflow
 
 <p align="center">
   <img width="1000" alt="flowchart" src="https://github.com/jrim42/pyGCAP/assets/90167645/a39af39e-7961-4e21-b2ab-e1a3c86b1f4a">
@@ -27,9 +27,9 @@ To evaluate pyGCAP, we used 17 major dcw genes defined by Megrian et al. [1] as 
 
 ---
 
-### pre-requirement
+### Pre-requirement
 
-1. `Python`
+1. `Python` (!!!_version_!!!)
 2. `conda` environment
 
    - `blast` ([bioconda blast package](https://anaconda.org/bioconda/blast))
