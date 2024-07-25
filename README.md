@@ -23,7 +23,7 @@ To evaluate pyGCAP, we used 17 major dcw genes defined by Megrian et al. [1] as 
 ## Pipeline-flow
 
 <p align="center">
-  <img width="1000" alt="flowchart" src="https://github.com/jrim42/pyGCAP/assets/90167645/a39af39e-7961-4e21-b2ab-e1a3c86b1f4a">
+  <img width="1000" alt="flowchart" src="https://github.com/user-attachments/assets/e957794d-091c-4931-a0c9-fd013f02d307">
 </p>
 
 ---
@@ -168,7 +168,7 @@ Profiling _dcw_ genes from pan-genomes of Lactobacillales (LAB)
   - `working_directory/TAXON/output/img`: A heatmap representing the dcw gene contents of Lactobacillales at the genus level.
 
     <p align="center">
-      <img width="1000" alt="example1" src="https://github.com/user-attachments/assets/9a2a3161-26d8-4e76-b4ea-f7ab56256583">
+      <img width="1000" alt="example1" src="https://github.com/user-attachments/assets/745e0d71-cf7c-4796-8601-5793dba42960">
     </p>
 
   - `working_directory/TAXON/output/geus`: A plot visualizing the dcw gene order of Lactobacillales grouped by genus.
