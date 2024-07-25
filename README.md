@@ -57,7 +57,7 @@ To evaluate pyGCAP, we used 17 major dcw genes defined by Megrian et al. [1] as 
      ```
      conda create -n pygcap
      conda activate pygcap
-     pip install pygcap
+     pip install pygcap (or) conda install bioconda::pygcap
      conda install -c conda-forge ncbi-datasets-cli
      conda install -c conda-forge -c bioconda mmseqs2
      ```
@@ -72,10 +72,11 @@ To evaluate pyGCAP, we used 17 major dcw genes defined by Megrian et al. [1] as 
 
 ## Usage
 
-- pypi pygcap ([link](https://pypi.org/project/pygcap/))
+- pypi pygcap ([link](https://pypi.org/project/pygcap/)) / bioconda pygcap ([link](https://anaconda.org/bioconda/pygcap))
 
   ```python
   # pip install pygcap
+  # conda install bioconda::pygcap
   pygcap [TAXON] [PROBE_FILE]
   ```
 
