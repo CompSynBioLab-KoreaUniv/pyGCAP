@@ -1,4 +1,4 @@
-__version__ = '0.0.5'
+__version__ = '1.2.3'
 
 from ._accessory import *
 from ._blast import *
