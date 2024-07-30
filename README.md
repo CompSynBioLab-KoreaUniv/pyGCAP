@@ -62,7 +62,6 @@ To evaluate pyGCAP, we used 17 major dcw genes defined by Megrian et al. [1] as 
      conda install -c conda-forge -c bioconda mmseqs2
      ```
 
-
 ---
 
 ## Usage
@@ -90,11 +89,14 @@ To evaluate pyGCAP, we used 17 major dcw genes defined by Megrian et al. [1] as 
       - `Prediction` (user defined)
       - `Accession` (UniProt entry)
 
- - When the appropriate environment is set up, try running the following command from the root directory. If you have successfully met all the pre-requirements, it will execute correctly, and a directory named 'Facklamia' containing the test results will be created in the root directory.
+- When the appropriate environment is set up, try running the following command from the root directory. If you have successfully met all the pre-requirements, it will execute correctly, and a directory named 'Facklamia' containing the test results will be created in the root directory.
 
-   ```
-   python3 test.py
-   ```
+  ```
+  python3 test.py
+  [or]
+  pygcap Facklamia pygcap/data/probe_sample.tsv
+  ```
+
 ### Options
 
 1. `--working_dir` or `-w` (default: `.`): Specify the working directory path.
